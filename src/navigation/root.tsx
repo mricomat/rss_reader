@@ -3,7 +3,7 @@ import React from 'react';
 import { enableScreens } from 'react-native-screens';
 
 import { routeNames } from 'src/hooks/use-navigation';
-import SearchMoviesScreen from 'src/screens/newsListScreen';
+import NewsListScreen from 'src/screens/newsListScreen';
 import { NewsStackParamType } from 'src/types/navigation';
 import AnimationUtils from 'src/utils/animations';
 
@@ -13,7 +13,7 @@ const RootStack = createStackNavigator<NewsStackParamType>();
 
 const Root = () => (
   <RootStack.Navigator screenOptions={AnimationUtils.stackOptions}>
-    <RootStack.Screen name={routeNames.NewsList} component={SearchMoviesScreen} />
+    <RootStack.Screen name={routeNames.NewsList} component={NewsListScreen} />
   </RootStack.Navigator>
 );
 
