@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Input it renders correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCorrect={false}
+    multiline={false}
+    numberOfLines={1}
+    onChangeText={[Function]}
+    placeholderTextColor="#7F7F7F"
+    rejectResponderTermination={true}
+    selectionColor="#000000"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 6,
+          "color": "#333333",
+          "fontSize": 15,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        },
+        undefined,
+      ]
+    }
+    testID="Input"
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
