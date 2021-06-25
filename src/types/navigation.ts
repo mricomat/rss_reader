@@ -2,10 +2,12 @@ import { CompositeNavigationProp, RouteProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 
 import { routeNames } from 'src/hooks/use-navigation';
+import { IRssItem } from 'src/types/data';
+
 
 export type NewsStackParamType = {
   [routeNames.NewsList]: undefined;
-  [routeNames.NewsDetail]: undefined;
+  [routeNames.NewsDetail]: IRssItem;
 };
 
 export type MainStackParamType = {

@@ -1,3 +1,5 @@
 {
-  "searchNewsPlaceHolder": "Search news"
+  "searchNewsPlaceHolder": "Search news",
+  "return": "Return",
+  "navigateLink": "View in browser"
 }
