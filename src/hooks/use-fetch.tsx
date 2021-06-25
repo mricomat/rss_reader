@@ -63,8 +63,9 @@ export const useFetch = <T,>(persist: boolean, cacheLife: number) => {
       .then(res => res.response || res)
       .then(async res => {
         log(`${method} ${url}`, res.data);
-        if (res.status !== 200) {
+        if (res.status !== 200 || res.data === undefined) {
           setState({ status: ActionType.FETCH_ERROR, error: true });
+          return;
         }
         setState({ status: ActionType.FETCHED, data: res.data });
         await cache.set(requestId, res.data);

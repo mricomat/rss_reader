@@ -49,7 +49,7 @@ const getLocalStorage = <T>({ cacheLife }: { cacheLife: number }): ICache<T> => 
   const get = async (requestId: string): Promise<any> => {
     if (await isExpired(requestId)) return undefined;
     const cache = await getHttpCache();
-    console.log(cache);
+
     return cache[requestId].response;
   };
 
@@ -59,7 +59,7 @@ const getLocalStorage = <T>({ cacheLife }: { cacheLife: number }): ICache<T> => 
       response: value,
       expiration: Date.now() + cacheLife,
     };
-    console.log('cache', cache);
+
     try {
       await AsyncStorage.setItem(StorageKeys.httpCache, JSON.stringify(cache));
       return true;
