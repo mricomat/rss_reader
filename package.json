@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "pod": "cd ios && pod install",
     "test": "jest --coverage --silent ",
     "test-output": "open coverage/lcov-report/index.html",
     "test-and-output": "yarn test && yarn test-output",
