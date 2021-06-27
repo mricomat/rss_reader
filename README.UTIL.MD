@@ -6,11 +6,11 @@ I implemented a basic solution with a reader hook. Coordinate using another fuct
 
 ## Índex
 
-* [Tech Stack](#Tech-Stack)
+* [Tech Stack](#tech-stack)
   * [Application Blueprint](#application-blueprint)
   * [Testing Setup](#testing-setup)
   * [Dev tools](#dev-tools)
-* [Code structure](#Code-Structure)
+* [Code structure](#code-structure)
 
 ## Tech Stack
 
