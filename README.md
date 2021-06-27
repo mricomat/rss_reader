@@ -1,12 +1,13 @@
-# Boilerplate rss_reader
+# Boilerplate RSS Reader
+
+Description of boilerplateApp, read READM.util.MD for more info
 
 ## Index
 
-[commands](#Commands)
+* [Commands](#commands)
 
-[instalation and usage](#Instalation-and-usage)
+* [Instalation and usage](#instalation-and-usage)
 
----
 
 ## Commands
 
